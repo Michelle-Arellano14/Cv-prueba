@@ -1,0 +1,57 @@
+/*Este es un comentario*/
+/*selector de tipo etiqueta*/
+/*Guardar documento en carpeta para que lea el css*/
+body{
+
+background-color: pink;
+font-size: 16px;
+color: rgba(20, 19, 18, 0.976);
+font-family: "Jaro", sans-serif;
+}
+
+h1 {
+
+    color: blueviolet;
+}
+
+/*Selector de ID de un color para un titulo*/
+#titulo-educativo{
+
+color: chartreuse;
+
+}
+
+/*Selector de clase*/
+.estilo-seccion{
+
+    background-color: blanchedalmond;
+    text-align: center;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 20px;
+    border:3px solid black;
+    text-align: center;
+
+}
+
+/*Selector avanzado para lista en biñetas*/
+
+.estilo-seccion ul  li {
+
+ list-style: none;
+
+}
+
+/*Selector avanzado  para lista ennumeradas*/
+.estilo-seccion ol li{
+
+list-style: none;
+
+}
+
+img{
+
+    width: 500px;
+    height: 400px;
+    text-align: center;
+}
